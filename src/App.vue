@@ -1,14 +1,12 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      dark
-    >
-        <span class="mr-2">Werewolf</span>
-    </v-app-bar>
+  <v-toolbar color="#AA5F2C" dense height="19px">
+  
+  </v-toolbar>
+  
     
     <v-content>
-      <router-view></router-view> <!--router views-->
+   <router-view></router-view>
     </v-content>
     
   </v-app>
@@ -25,8 +23,11 @@ export default {
 };
 </script>
 
-<style scoped>
+
+<style>
 
 </style>
+
+
 
 
